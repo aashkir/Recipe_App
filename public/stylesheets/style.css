@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+	max-width: 100%;
+	max-height: 70%;
+	overflow: hidden;
+}
+
+#main {
+	width: 100%;
+}
+
+#container {
+	width: 100%;
+	padding: 10px;
+}
+
+#data {
+	display: none;
+	visibility: hidden;
+}
+
+.item {
+	width: 150px;
+	height: 200px;
+	float: left;
+	background-color: beige;
+	padding: 10px;
+	border-style: solid;
+    border-width: 2px;
+    text-overflow: ellipsis;
+}
+
+.caption {
+	position: relative;
+	//height: 10%;
+	//top: 90%;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: hidden;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+- Example shows drawing strings on the canvas and
+  dragging individual strings around with the mouse.
+
+  In this example the HTML elements are not being
+  dragged. The strings are javascript objects.
+
+  When the canvas reacts to the mouse down event
+  other event handlers will be added to the DOM
+  to handle the mouse move and mouse release
+
+  Notice in this source file there are no pre-attached
+  event handlers. They will be added using jQuery in the
+  supporting javascript file.
+
+
+-->
+<html>
+   <head>
+     <title>Assignment 4</title>
+     <script src="jquery-1.11.3.js"></script>
+     <script src="javascripts/recipes.js"></script>
+     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+    <div id="main"> 
+      <form id="myForm" action="/recipes" method="post"> 
+        Enter an Ingredient: <input name="ingredient" id="myInput"><br>
+        <input type="submit" value="Submit">
+      </form>
+      <div id="items"></div>
+      <div id="data">Default</div>
+    </div>
+   </body>
+</html>
